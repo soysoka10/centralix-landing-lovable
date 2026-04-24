@@ -29,10 +29,10 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "CasaBot — El bot de WhatsApp para inmobiliarias" },
+      { title: "Centralix — El bot de WhatsApp para inmobiliarias" },
       { name: "description", content: "Tasaciones, fichas colaborativas, home staging, metabuscador y reels. Todo dentro de WhatsApp." },
-      { name: "author", content: "CasaBot" },
-      { property: "og:title", content: "CasaBot — El bot de WhatsApp para inmobiliarias" },
+      { name: "author", content: "Centralix" },
+      { property: "og:title", content: "Centralix — El bot de WhatsApp para inmobiliarias" },
       { property: "og:description", content: "Tasaciones, fichas colaborativas, home staging, metabuscador y reels. Todo dentro de WhatsApp." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

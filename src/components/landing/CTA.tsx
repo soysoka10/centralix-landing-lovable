@@ -1,4 +1,5 @@
 import { useReveal } from "@/hooks/use-reveal";
+import centralixLogo from "@/assets/centralix-logo.png";
 
 export function CTA() {
   const { ref, inView } = useReveal();
@@ -29,7 +30,7 @@ export function CTA() {
               El asistente que tu inmobiliaria <span className="text-gradient-coral">venía esperando</span>.
             </h2>
             <p className="mt-6 text-lg text-background/70 max-w-xl mx-auto">
-              Probá CasaBot gratis durante 14 días. Sin tarjeta. Sin instalaciones. Solo WhatsApp.
+              Probá Centralix gratis durante 14 días. Sin tarjeta. Sin instalaciones. Solo WhatsApp.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-3 justify-center">
@@ -70,12 +71,12 @@ export function Footer() {
     <footer className="border-t border-border py-12 px-6">
       <div className="container mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-            <svg viewBox="0 0 24 24" className="h-4 w-4 text-primary-foreground" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.38 5.07L2 22l5.07-1.38A9.93 9.93 0 0012 22c5.52 0 10-4.48 10-10S17.52 2 12 2z"/>
-            </svg>
-          </div>
-          <span className="font-display font-bold">Casa<span className="text-primary">Bot</span></span>
+          <img
+            src={centralixLogo}
+            alt="Centralix logo"
+            className="h-9 w-9 object-contain"
+          />
+          <span className="font-display font-bold">Centralix</span>
           <span className="text-sm text-muted-foreground ml-2">© {new Date().getFullYear()}</span>
         </div>
         <div className="flex gap-6 text-sm text-muted-foreground">
