@@ -70,7 +70,7 @@ export function ChatMockup() {
               🏡
             </div>
             <div className="flex-1">
-              <div className="font-semibold text-sm">CasaBot</div>
+              <div className="font-semibold text-sm">Centralix</div>
               <div className="text-xs opacity-80 flex items-center gap-1">
                 <span className="h-1.5 w-1.5 rounded-full bg-green-300 animate-pulse" />
                 en línea

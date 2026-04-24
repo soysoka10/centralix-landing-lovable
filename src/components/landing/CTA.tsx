@@ -1,4 +1,5 @@
 import { useReveal } from "@/hooks/use-reveal";
+import centralixLogo from "@/assets/centralix-logo.png";
 
 export function CTA() {
   const { ref, inView } = useReveal();
@@ -29,7 +30,7 @@ export function CTA() {
               El asistente que tu inmobiliaria <span className="text-gradient-coral">venía esperando</span>.
             </h2>
             <p className="mt-6 text-lg text-background/70 max-w-xl mx-auto">
-              Probá CasaBot gratis durante 14 días. Sin tarjeta. Sin instalaciones. Solo WhatsApp.
+              Probá Centralix gratis durante 14 días. Sin tarjeta. Sin instalaciones. Solo WhatsApp.
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-3 justify-center">

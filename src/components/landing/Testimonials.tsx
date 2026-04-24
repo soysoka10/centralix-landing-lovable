@@ -16,7 +16,7 @@ const TESTIMONIALS = [
     color: "bg-coral",
   },
   {
-    quote: "Los reels que genera CasaBot tienen mejor performance que los que hacíamos con un editor freelance.",
+    quote: "Los reels que genera Centralix tienen mejor performance que los que hacíamos con un editor freelance.",
     name: "Julieta Roca",
     role: "Marketing · Roca Bienes Raíces",
     avatar: "JR",
